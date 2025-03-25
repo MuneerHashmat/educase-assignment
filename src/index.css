@@ -8,6 +8,13 @@
   --brand-purple: #6c25ff4b;
   --brand-pink: #e70b897b;
   --brand-black: #1d2226;
+  --brand-grey-dark: #919191;
+  --brand-grey-light: #CBCBCB;
+  --brand-red: #DD4A3D;
+}
+
+body{
+  background-color: var(--brand-grey-bg);
 }
 
 .rubik {
