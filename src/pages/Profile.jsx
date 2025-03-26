@@ -26,10 +26,14 @@ const Profile = () => {
               <p className="text-[14px]">Marry@Gmail.Com</p>
             </div>
           </div>
-          <p className='font-medium text-[var(--brand-black)] mt-8'>Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam</p>
+          <p className="font-medium text-[var(--brand-black)] text-[14px] mt-8">
+            Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
+            Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam
+            Erat, Sed Diam
+          </p>
         </div>
       </div>
-      <hr className="border-t-2 border-dashed border-[var(--brand-grey-dark)] w-screen mt-7"/>
+      <hr className="border-t-2 border-dashed border-[var(--brand-grey-dark)] w-screen mt-7" />
     </div>
   );
 };

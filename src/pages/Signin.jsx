@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 const Signin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   return (
     <div className="w-screen h-screen pt-10 flex flex-col items-center">
-      <div className="w-[90vw] sm:w-[75vw] md:w-[35vw] flex flex-col gap-5">
-        <h1 className="text-[var(--brand-black)] text-[28px] font-medium">
+      <div className="w-[90vw] sm:w-[75vw] md:w-[35vw] flex flex-col gap-4">
+        <h1 className="text-[var(--brand-black)] text-[28px] font-medium leading-8">
           Signin to your PopX account
         </h1>
         <p className="text-[#6c7e8c] text-[18px]">

@@ -9,11 +9,11 @@
   --brand-pink: #e70b897b;
   --brand-black: #1d2226;
   --brand-grey-dark: #919191;
-  --brand-grey-light: #CBCBCB;
-  --brand-red: #DD4A3D;
+  --brand-grey-light: #cbcbcb;
+  --brand-red: #dd4a3d;
 }
 
-body{
+body {
   background-color: var(--brand-grey-bg);
 }
 

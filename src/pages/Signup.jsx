@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { formItems } from "../constants/formItems";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
+  const navigate=useNavigate();
   const initialState = {
     name: "",
     phone: "",
@@ -24,7 +26,10 @@ const Signup = () => {
             Create your PopX account
           </h1>
           <form
-            onSubmit={(e) => e.preventDefault()}
+           onSubmit={(e) => {
+            e.preventDefault();
+            navigate("/profile");
+          }}
             className="w-full flex flex-col items-center justify-between h-full font-medium"
           >
             <div className="flex flex-col items-center gap-5 w-full">
@@ -106,7 +111,7 @@ const Signup = () => {
                   : "bg-[var(--brand-blue)] hover:scale-[1.005] transition-all cursor-pointer"
               }`}
             >
-              Login
+              Create  Account
             </button>
           </form>
         </div>
