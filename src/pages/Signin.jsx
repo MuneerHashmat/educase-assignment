@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Signin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate=useNavigate();
   return (
     <div className="w-screen h-screen pt-10 flex flex-col items-center">
       <div className="w-[90vw] sm:w-[75vw] md:w-[35vw] flex flex-col gap-5">
@@ -13,7 +15,10 @@ const Signin = () => {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         </p>
         <form
-          onSubmit={(e) => e.preventDefault()}
+          onSubmit={(e) => {
+            e.preventDefault();
+            navigate("/profile");
+          }}
           className="w-full flex flex-col items-center gap-5 font-medium"
         >
           <div className="relative w-full">
