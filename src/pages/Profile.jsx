@@ -33,7 +33,7 @@ const Profile = () => {
           </p>
         </div>
       </div>
-      <hr className="border-t-2 border-dashed border-[var(--brand-grey-dark)] w-screen mt-7" />
+      <hr className="border-t-2 border-dashed border-[var(--brand-grey-light)] w-screen mt-7" />
     </div>
   );
 };
